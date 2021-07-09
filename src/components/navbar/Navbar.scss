@@ -1,0 +1,27 @@
+header {
+  box-shadow: 2px 2px 5px 1px rgba(242, 242, 242, 1);
+}
+nav {
+  max-width: 1330px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  .right-icons {
+    display: flex;
+    flex: 0.15;
+    justify-content: space-around;
+  }
+  .logo {
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffb86f;
+  }
+}
+.search,
+.notifications,
+.profile {
+  width: 22px;
+  font-size: 1.3rem;
+}
